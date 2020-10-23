@@ -17,8 +17,7 @@ const PanettoneItem = ({ panettone }) => {
       <Card className={classes.card}>
         <CardMedia
           className={classes.cardMedia}
-          // image={panettone.image}
-          image="https://github.com/MatheusVarela19/panettonecatalog/blob/main/frontend/web/src/images/1.jpg"
+          image={panettone.image}
           title="Image title"
         />
         <CardContent className={classes.cardContent}>
@@ -28,7 +27,7 @@ const PanettoneItem = ({ panettone }) => {
           <Typography>{panettone.about}</Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button size="small" color="secondary">
             Detalhes
           </Button>
         </CardActions>

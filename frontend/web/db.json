@@ -1,22 +1,40 @@
 {
   "panettones": [
     {
-      "id": 9,
-      "name": "Chocottone 1",
+      "id": 1,
+      "name": "Panettone Bauducco® 1kg",
       "brand": "Bauducco",
-      "weight": 300,
-      "price": 10,
-      "about": "Delicioso Panettone com recheio cremoso de chocolate ao leite",
-      "image": "/images/1.png"
+      "weight": 1000,
+      "price": 30.99,
+      "about": "A embalagem convencional traz a delícia da massa original, com a tentação das gotas de chocolate ou a tradição das frutas.",
+      "image": "http://lojabauducco.vteximg.com.br/arquivos/ids/156598/Panettone_1kg_3000x3000.png?v=637359666892000000"
     },
     {
-      "id": 8,
-      "name": "Chocottone 2",
+      "id": 2,
+      "name": "Chocottone Bauducco®",
       "brand": "Bauducco",
-      "weight": 300,
-      "price": 10,
+      "weight": 500,
+      "price": 16.99,
       "about": "Delicioso Panettone com recheio cremoso de chocolate ao leite",
-      "image": "/images/1.png"
+      "image": "http://lojabauducco.vteximg.com.br/arquivos/ids/156594/AF_Chocottone_500g_3000x3000.png?v=637359665634570000"
+    },
+    {
+      "id": 3,
+      "name": "Panettone Bauducco",
+      "brand": "Bauducco",
+      "weight": 4000,
+      "price": 144.99,
+      "about": "A versão em tamanho família, como o nome já diz, é para matar a vontade da família inteira ou para ser saboreada na turma de amigos.",
+      "image": "http://lojabauducco.vteximg.com.br/arquivos/ids/156591/Panettone_4kg_3000x3000.png?v=637359664793900000"
+    },
+    {
+      "id": 4,
+      "name": "Panetone Frutas 400 Grs Visconti",
+      "brand": "Visconti",
+      "weight": 400,
+      "price": 13.50,
+      "about": "O Panettone Visconti tem textura macia e um cheirinho delicioso que só o panetone tem. Ele é molhadinho e delicioso como só um panetone Visconti consegue ser. Ingredientes: Farinha de trigo enriquecida com ferro e ácido fólico, açúcar, uva passa, frutas cristalizadas, gordura vegetal, ovo integral, gema de ovo, manteiga, extrato de malte, sal, óleo de milho, aromatizantes, emulsificante: mono e diglicerídeos de ácidos graxos (Ins 471), conservadores: propionato de cálcio (Ins 282) e ácido sórbico (Ins 200) e corante sintético idêntico ao natural: beta ¿ caroteno (Ins 160a i). Contém Glúten",
+      "image": "https://images-americanas.b2w.io/produtos/01/00/oferta/44789/5/44789596_1GG.jpg"
     }
   ]
 }
