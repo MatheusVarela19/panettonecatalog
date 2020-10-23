@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 
 import useStyles from "../styles/styles";
 
-const PanettoneItem = panettone => {
+const PanettoneItem = ({ panettone }) => {
   const classes = useStyles();
 
   return (
@@ -17,11 +17,12 @@ const PanettoneItem = panettone => {
       <Card className={classes.card}>
         <CardMedia
           className={classes.cardMedia}
-          image={panettone.image}
+          // image={panettone.image}
+          image="https://github.com/MatheusVarela19/panettonecatalog/blob/main/frontend/web/src/images/1.jpg"
           title="Image title"
         />
         <CardContent className={classes.cardContent}>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom className={classes.cardMediaText} variant="h5" component="h2">
             {panettone.name}
           </Typography>
           <Typography>{panettone.about}</Typography>
@@ -29,9 +30,6 @@ const PanettoneItem = panettone => {
         <CardActions>
           <Button size="small" color="primary">
             Detalhes
-          </Button>
-          <Button size="small" color="primary">
-            Editar
           </Button>
         </CardActions>
       </Card>

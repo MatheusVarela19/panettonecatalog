@@ -1,0 +1,22 @@
+{
+  "panettones": [
+    {
+      "id": 9,
+      "name": "Chocottone 1",
+      "brand": "Bauducco",
+      "weight": 300,
+      "price": 10,
+      "about": "Delicioso Panettone com recheio cremoso de chocolate ao leite",
+      "image": "/images/1.png"
+    },
+    {
+      "id": 8,
+      "name": "Chocottone 2",
+      "brand": "Bauducco",
+      "weight": 300,
+      "price": 10,
+      "about": "Delicioso Panettone com recheio cremoso de chocolate ao leite",
+      "image": "/images/1.png"
+    }
+  ]
+}

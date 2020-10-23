@@ -1,6 +1,14 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
+  mainTitle: {
+    color: theme.palette.primary.text,
+    textShadow: '2px 2px 2px ' + theme.palette.primary.shadow
+  },
+  appBarText: {
+    color: theme.palette.primary.text,
+    textShadow: '2px 2px 2px ' + theme.palette.primary.shadow
+  },
   mainContainer: {
     width: "100%",
     height: "100%",
@@ -9,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   appBar: {
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main,
   },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
@@ -29,6 +37,9 @@ const useStyles = makeStyles((theme) => ({
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
+  },
+  cardMediaText: {
+    color: theme.palette.primary.text,
   },
   cardContent: {
     flexGrow: 1,
