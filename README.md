@@ -9,9 +9,9 @@
 
 ## How to test it?
 
-Clone the repo
-cd into the folder you've cloned it
-type `yarn start`, press enter
-type `json-server --watch db.json --port 3004`, press enter
-
+Clone the repo <br/>
+cd into the folder you've cloned it <br/>
+type `yarn start`, press enter <br/>
+type `json-server --watch db.json --port 3004`, press enter <br/>
+<br/>
 Made by MatheusVarela19
